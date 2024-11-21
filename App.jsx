@@ -1,23 +1,15 @@
-import React from "react";
-import Header from "./components/Header";
+import Header from './components/Header'
+import { Outlet } from 'react-router-dom'
+
 import './App.css'
-import SearchBar from "./components/SearchBar";
-import SelectMenu from "./components/SelectMenu";
-import CountriesList from "./components/CountriesList";
 
 const App = () => {
-  return <>
-    <Header/>
-    <main>
-    <div className="search-filter-container">
-    <SearchBar/>
-    <SelectMenu/>
-    </div>
-    <CountriesList/>
-    </main>
+  return (
+    <>
+      <Header />
+      <Outlet />
+    </>
+  )
+}
 
-    
-  </>
-};
-
-export default App;
+export default App
