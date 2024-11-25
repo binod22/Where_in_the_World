@@ -1,6 +1,5 @@
 import React from 'react'
-import './CountriesListShimmer.css'
-
+import './countriesListShimmer.css'
 export default function CountriesListShimmer() {
   return (
     <div className = "countries-container">
