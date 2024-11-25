@@ -28,21 +28,25 @@ A modern React application that allows users to explore information about differ
 ### ⚙️ Installation
 
 1. Clone the repository:
+
 ```bash
 git clone [repository-url]
 ```
 
 2. Navigate to the project directory:
+
 ```bash
 cd where_in_the_world
 ```
 
 3. Install dependencies:
+
 ```bash
 npm install
 ```
 
 4. Start the development server:
+
 ```bash
 npm start
 ```
@@ -52,6 +56,7 @@ The application will be available at `http://localhost:1234` 🌐
 ### 🏗️ Building for Production
 
 To create a production build:
+
 ```bash
 npm run build
 ```
@@ -70,15 +75,17 @@ npm run build
 ## 🎯 Features in Detail
 
 ### 🏠 Home Page
+
 - 📱 Grid layout of country cards
 - 🔍 Search bar to filter countries by name
 - 🌐 Region dropdown to filter countries by continent
 - ⚡ Loading states with shimmer effects
 
 ### 🗺️ Country Details Page
+
 - 📋 Detailed information about selected country
 - 🔗 Border countries links
 - ↩️ Back navigation
 - 📱 Responsive layout for all screen sizes
 
-visit => https://all-countries-information-bybinod.netlify.app🌐
+visit 🌐 => https://all-countries-information-bybinod.netlify.app
