@@ -2,10 +2,8 @@
   "name": "where_in_the_world",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build src/index.html --dist-dir dist",
+    "build": "parcel build index.html",
     "start": "parcel index.html"
   },
   "keywords": [],
